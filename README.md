@@ -13,6 +13,8 @@
   Pass around a latent and VAE that can be passed to a VAE Decode node.
 - Prompt Bus &ndash;
   Pass around the positive and negative prompt text strings.
+- Prompt SDXL Bus &ndash;
+  Pass around the positive and negative prompt text strings in the SDXL text_l and text_g variants.
 
 ## License
 Copyright (C) 2024 Reece H. Dunn
