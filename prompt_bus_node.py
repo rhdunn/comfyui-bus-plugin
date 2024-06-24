@@ -43,3 +43,25 @@ class PromptSDXLBusNode:
 
     def bus(self, positive_g, positive_l, negative_g, negative_l):
         return (positive_g, positive_l, negative_g, negative_l)
+
+
+# noinspection PyPep8Naming,PyMethodMayBeStatic,PyRedundantParentheses,PyMethodParameters
+class CLIPEncodedPromptBusNode:
+    def __init__(self):
+        pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        return {"required": {"model": ("MODEL", ),
+                             "positive": ("CONDITIONING", ),
+                             "negative": ("CONDITIONING", )}
+                }
+
+    RETURN_TYPES = ("MODEL", "CONDITIONING", "CONDITIONING", )
+    RETURN_NAMES = ("model", "positive", "negative", )
+
+    FUNCTION = "bus"
+    CATEGORY = "ComfyBus"
+
+    def bus(self, model, positive, negative):
+        return (model, positive, negative)

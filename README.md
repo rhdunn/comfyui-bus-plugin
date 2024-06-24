@@ -9,6 +9,8 @@
 ## Nodes
 - Checkpoint Bus &ndash;
   Pass around the model, CLIP, and VAE from a loaded checkpoint.
+- CLIP Encoded Prompt Bus &ndash;
+  Pass around the CLIP Text Encoded positive and negative prompt and associated model.
 - Latent Image Bus &ndash;
   Pass around a latent and VAE that can be passed to a VAE Decode node.
 - Prompt Bus &ndash;
