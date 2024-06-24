@@ -2,13 +2,16 @@
 
 from .checkpoint_bus_node import CheckpointBusNode
 from .latent_image_bus_node import LatentImageBusNode
+from .prompt_bus_node import PromptBusNode
 
 NODE_CLASS_MAPPINGS = {
     "ComfyBus.CheckpointBusNode": CheckpointBusNode,
-    "ComfyBus.LatentImageBusNode": LatentImageBusNode
+    "ComfyBus.LatentImageBusNode": LatentImageBusNode,
+    "ComfyBus.PromptBusNode": PromptBusNode
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ComfyBus.CheckpointBusNode": "Checkpoint Bus",
-    "ComfyBus.LatentImageBusNode": "Latent Image Bus"
+    "ComfyBus.LatentImageBusNode": "Latent Image Bus",
+    "ComfyBus.PromptBusNode": "Prompt Bus"
 }
