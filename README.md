@@ -2,6 +2,7 @@
 > A collection of nodes for rerouting multiple IO lines together in a bus.
 
 ## Nodes
+- Checkpoint Bus - Pass around the model, CLIP, and VAE from a loaded checkpoint.
 - Latent Image Bus -- Pass around a latent and VAE that can be passed to a VAE Decode node.
 
 ## License
