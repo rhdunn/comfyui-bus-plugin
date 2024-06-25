@@ -45,3 +45,25 @@ class ImageParameterBusNode:
 
     def bus(self, seed, width, height):
         return (seed, width, height)
+
+
+# noinspection PyPep8Naming,PyMethodMayBeStatic,PyRedundantParentheses,PyMethodParameters
+class LatentImageParameterBusNode:
+    def __init__(self):
+        pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        return {"required": {"latent": ("LATENT", ),
+                             "seed": ("INT", {"default": 0, "min": 0, "max": 0xffffffffffffffff, "defaultInput": True}),
+                             "denoise": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 1.0, "step": 0.01, "defaultInput": True})}
+                }
+
+    RETURN_TYPES = ("LATENT", "INT", "FLOAT", )
+    RETURN_NAMES = ("latent", "seed", "denoise", )
+
+    FUNCTION = "bus"
+    CATEGORY = "ComfyBus"
+
+    def bus(self, latent, seed, denoise):
+        return (latent, seed, denoise)
