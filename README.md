@@ -1,6 +1,8 @@
 # comfyui-bus-plugin
 > A collection of nodes for rerouting multiple I/O lines together in a bus.
 
+![A ComfyUI workflow using comfyui-bus-plugin nodes.](images/example-workflow.png)
+
 > [!NOTE]
 >
 > Because ComfyUI does not support generic I/O connections there have to be different
