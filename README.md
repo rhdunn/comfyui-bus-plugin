@@ -21,6 +21,12 @@ These bus nodes are used to pass around specific groups of values from various s
 | Prompt Bus                  | Positive and negative prompt text strings.                                        |
 | Prompt SDXL Bus             | Positive and negative prompt text strings in the SDXL text_l and text_g variants. |
 
+> [!NOTE]
+>
+> Some of these bus nodes &ndash; such as the Image Parameter Bus node &ndash; can have the
+> inputs converted to widgets and be used as the input node to the bus or other workflows
+> instead of creating primitive nodes for each parameter.
+
 ## License
 Copyright (C) 2024 Reece H. Dunn
 

@@ -67,3 +67,25 @@ class LatentImageParameterBusNode:
 
     def bus(self, latent, seed, denoise):
         return (latent, seed, denoise)
+
+
+# noinspection PyPep8Naming,PyMethodMayBeStatic,PyRedundantParentheses,PyMethodParameters
+class ImageScaleToSideParameterBusNode:
+    def __init__(self):
+        pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        return {"required": {"side_length": ("INT", {"default": 1024, "min": 256, "max": MAX_RESOLUTION, "step": 8, "defaultInput": True}),
+                             "seed": ("INT", {"default": 0, "min": 0, "max": 0xffffffffffffffff, "defaultInput": True}),
+                             "denoise": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 1.0, "step": 0.01, "defaultInput": True})}
+                }
+
+    RETURN_TYPES = ("INT", "INT", "FLOAT", )
+    RETURN_NAMES = ("side_length", "seed", "denoise", )
+
+    FUNCTION = "bus"
+    CATEGORY = "ComfyBus"
+
+    def bus(self, side_length, seed, denoise):
+        return (side_length, seed, denoise)
