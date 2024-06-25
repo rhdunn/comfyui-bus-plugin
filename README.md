@@ -13,6 +13,7 @@ These bus nodes are used to pass around specific groups of values from various s
 |-------------------------|-----------------------------------------------------------------------------------|
 | Checkpoint Bus          | Model, CLIP, and VAE from a loaded checkpoint.                                    |
 | CLIP Encoded Prompt Bus | CLIP Text Encoded positive and negative prompt and associated model.              |
+| Image Parameter Bus     | Image width, height, and seed.                                                    |
 | Image Size Bus          | Image width and height for the size of the image, target size, etc.               |
 | Latent Image Bus        | A latent and VAE that can be passed to a VAE Decode node.                         |
 | Prompt Bus              | Positive and negative prompt text strings.                                        |

@@ -2,12 +2,13 @@
 
 from .checkpoint_bus_node import CheckpointBusNode
 from .latent_image_bus_node import LatentImageBusNode
-from .parameters_bus_node import ImageSizeBusNode
+from .parameters_bus_node import ImageSizeBusNode, ImageParameterBusNode
 from .prompt_bus_node import PromptBusNode, PromptSDXLBusNode, CLIPEncodedPromptBusNode
 
 NODE_CLASS_MAPPINGS = {
     "ComfyBus.CheckpointBusNode": CheckpointBusNode,
     "ComfyBus.CLIPEncodedPromptBusNode": CLIPEncodedPromptBusNode,
+    "ComfyBus.ImageParameterBusNode": ImageParameterBusNode,
     "ComfyBus.ImageSizeBusNode": ImageSizeBusNode,
     "ComfyBus.LatentImageBusNode": LatentImageBusNode,
     "ComfyBus.PromptBusNode": PromptBusNode,
@@ -17,6 +18,7 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ComfyBus.CheckpointBusNode": "Checkpoint Bus",
     "ComfyBus.CLIPEncodedPromptBusNode": "CLIP Encoded Prompt Bus",
+    "ComfyBus.ImageParameterBusNode": "Image Parameter Bus",
     "ComfyBus.ImageSizeBusNode": "Image Size Bus",
     "ComfyBus.LatentImageBusNode": "Latent Image Bus",
     "ComfyBus.PromptBusNode": "Prompt Bus",
