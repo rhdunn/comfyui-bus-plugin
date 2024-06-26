@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-bus-plugin"
+description = "A collection of nodes for rerouting multiple I/O lines together in a bus."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/rhdunn/comfyui-bus-plugin"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-bus-plugin"
+Icon = ""
