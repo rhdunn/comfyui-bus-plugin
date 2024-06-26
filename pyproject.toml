@@ -9,6 +9,6 @@ Repository = "https://github.com/rhdunn/comfyui-bus-plugin"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "rhdunn"
 DisplayName = "comfyui-bus-plugin"
 Icon = ""
