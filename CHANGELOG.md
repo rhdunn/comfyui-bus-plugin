@@ -5,6 +5,12 @@
 
 ### Added
 
+The following nodes have been added:
+
+| Name                        | Description                                                                       |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| CLIP Conditioning Bus       | Parameters (all optional) for the unCLIPConditioning node.                        |
+
 ### Changed
 
 ### Removed

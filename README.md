@@ -14,6 +14,7 @@ These bus nodes are used to pass around specific groups of values from various s
 | Name                        | Description                                                                       |
 |-----------------------------|-----------------------------------------------------------------------------------|
 | Checkpoint Bus              | Model, CLIP, and VAE from a loaded checkpoint.                                    |
+| CLIP Conditioning Bus       | Parameters (all optional) for the unCLIPConditioning node.                        |
 | CLIP Encoded Prompt Bus     | CLIP Text Encoded positive and negative prompt and associated model.              |
 | Image Bus                   | An image and mask from a loaded image, with optional VAE for VAE encoding.        |
 | Image Parameter Bus         | Image width, height, and seed.                                                    |
