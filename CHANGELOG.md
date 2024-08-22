@@ -5,6 +5,14 @@
 
 ### Added
 
+### Changed
+
+### Removed
+
+## [1.1.0] - 2024-08-24
+
+### Added
+
 The following nodes have been added:
 
 | Name                        | Description                                                                       |
@@ -14,6 +22,10 @@ The following nodes have been added:
 ### Changed
 
 ### Removed
+
+### Fixed
+
+1. Fix the `license` property in the `pyproject.toml` file.
 
 ## [1.0.0] - 2024-06-26
 
@@ -34,4 +46,5 @@ The following nodes have been added:
 | Prompt SDXL Bus             | Positive and negative prompt text strings in the SDXL text_l and text_g variants. |
 
 [Unreleased]: https://github.com/rhdunn/comfyui-bus-plugin/compare/1.0.0...HEAD
+[1.1.0]: https://github.com/rhdunn/comfyui-bus-plugin/releases/tag/1.1.0
 [1.0.0]: https://github.com/rhdunn/comfyui-bus-plugin/releases/tag/1.0.0

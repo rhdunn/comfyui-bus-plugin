@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-bus-plugin"
 description = "A collection of nodes for rerouting multiple I/O lines together in a bus."
-version = "1.0.0"
+version = "1.1.0"
 license = { file = "LICENSE" }
 
 [project.urls]
