@@ -9,7 +9,7 @@
 
 ### Removed
 
-## [1.1.0] - 2024-08-24
+## [1.1.0] - 2024-08-22
 
 ### Added
 
@@ -45,6 +45,6 @@ The following nodes have been added:
 | Prompt Bus                  | Positive and negative prompt text strings.                                        |
 | Prompt SDXL Bus             | Positive and negative prompt text strings in the SDXL text_l and text_g variants. |
 
-[Unreleased]: https://github.com/rhdunn/comfyui-bus-plugin/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/rhdunn/comfyui-bus-plugin/compare/1.1.0...HEAD
 [1.1.0]: https://github.com/rhdunn/comfyui-bus-plugin/releases/tag/1.1.0
 [1.0.0]: https://github.com/rhdunn/comfyui-bus-plugin/releases/tag/1.0.0
